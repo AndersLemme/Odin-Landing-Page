@@ -1,0 +1,14 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.navbar{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.navbar .split{
+    float: 1;
+    width: 50%
+}
