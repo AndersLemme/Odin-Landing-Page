@@ -54,5 +54,10 @@ html, body{
     overflow: hidden;
     /* padding: 10px;
     margin-right: 50px; */
+
+}
+
+.random_info{
+    background-color: whitesmoke;
     
 }
