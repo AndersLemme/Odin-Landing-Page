@@ -6,7 +6,8 @@ html, body{
     background-color: rgb(20, 40, 55);
 }
 .navbar{
-    background-color: rgb(20, 40, 55);
+    display: flex;
+    flex-direction: column;
     margin-left: 15%;
     margin-right: 15%;
     /*flex-direction: row;
@@ -19,17 +20,20 @@ html, body{
     
 }
 .navbar .logo{
-    margin-left: 100px;
     color: whitesmoke;
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 500;
+}
+.navbar ul{
+    display: flex;
+    gap: 18px;
 }
 .navbar li{
     list-style: none;
     font-size: 18px;
-    margin-right: 20px;
     color: whitesmoke;
     display: inline-block;
+    text-align: -webkit-match-parent;
 }
 .awesome{
     background-color: rgb(20, 40, 55);
