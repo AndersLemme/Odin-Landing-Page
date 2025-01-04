@@ -58,8 +58,13 @@ html, body{
     margin-right: 50px; */
 
 }
-
 .random_info{
-    background-color: whitesmoke;
-    
+    background-color: white;
+}
+.random_info h1{
+    text-align: center;
+    font-weight: 500;
+}
+.quote{
+    background-color: rgb(233, 233, 233);
 }
