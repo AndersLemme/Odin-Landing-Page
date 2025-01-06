@@ -36,26 +36,45 @@ html, body{
     text-align: -webkit-match-parent;
 }
 .awesome{
-    height: 25%;
     display: flex;
-    margin-left: 15%;
-    margin-right: 15%;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 10rem;
+    height: 20%;
+    margin: 25px 15%;
     color: whitesmoke;
 }
 .awesome div{ /* I think this might not work... change to aw_text class? */
     flex: 1;
     margin: 10px;
-   
+    align-content: center;
 }
 .awesome img{ /* I think this might not work... change to aw_img class? */
-    width: 70%;
-    height: 100%;
-    
+    flex: 1;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
     /* padding: 10px;
     margin-right: 50px; */
+}
+.aw_text{
+    max-width: 50%;
+}
+.aw_text h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.aw_text p{
+    font-size: 18px;
+}
+button{
+    background-color:rgb(26, 136, 245);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
 
 }
 .random_info{
@@ -63,8 +82,19 @@ html, body{
 }
 .random_info h1{
     text-align: center;
-    font-weight: 500;
+    font-size: 48px;
+    font-weight: 700;
 }
+.info_boxes{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+
 .quote{
     background-color: rgb(233, 233, 233);
 }
