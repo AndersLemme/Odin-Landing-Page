@@ -21,7 +21,6 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
 .navbar .logo{
     color: whitesmoke;
@@ -59,8 +58,7 @@ h1 {
     width: 100%;
     padding: 30px;
     align-items: center;
-    /* padding: 10px;
-    margin-right: 50px; */
+
 }
 .aw_text{
     max-width: 50%;
@@ -72,6 +70,7 @@ h1 {
 .aw_text p{
     font-size: 18px;
 }
+
 button{
     background-color:rgb(26, 136, 245);
     color: #ffffff;
@@ -79,10 +78,10 @@ button{
     outline: none;
     padding: 10px;
     border-radius: 10px;
-
 }
 .random_info{
     background-color: white;
+    height: ;
     margin: 25px 15%;
 }
 .random_info h1{
@@ -108,9 +107,9 @@ button{
     height: 160px;
     margin: auto;
 }
-
 .quote_container{
     background-color: rgb(233, 233, 233);
+    padding: 30px 0;
 }
 .quote{
     margin: 5px 30%;
@@ -127,5 +126,13 @@ button{
     padding-bottom: 20px;
     margin: 5px 30%;
     text-align: right;
-
+}
+.its_time{
+    display: flex;
+    align-items: center;
+    background-color: rgb(55, 55, 233);
+    color: #ffffff;
+    margin: 10% 10%;
+    padding: 3em;
+    border-radius: 10px;
 }
